@@ -333,6 +333,9 @@ li {
   justify-content: center;
   align-items: center;
   padding: 24px;
+  padding-top: 120px ;
+  padding-bottom: 120px;
+  gap: 30px;
 }
 
 .contact-section > p {
@@ -383,5 +386,15 @@ border: none;
 width: 100%;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #DFE1E6;
+  padding: 25px;
+}
 
-
+footer .social-icon {
+  width:30px;
+  height: 30px;
+}
