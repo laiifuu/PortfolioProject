@@ -325,3 +325,63 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+.contact-section > p {
+  font-size:32px; 
+  font-weight:700;
+  line-height: 44px;
+  font-family: "Inter", sans-serif;
+  color: #172B4D;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  
+}
+*{
+  border: #091e42 solid 1px;
+}
+button[class="link"]{
+  border: none;
+}
+input{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+border: none;
+padding: 14px;
+border-bottom: solid 1px #DBD8D7;
+width: 100%;
+}
+
+textarea {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+background-color:  #FBF8F7;
+padding: 12px;
+height: 120px;
+border: none;
+width: 100%;
+}
+
+
+
