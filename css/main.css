@@ -358,27 +358,12 @@ button[class="link"] {
   border: none;
 }
 
-input {
+.input-field {
   font-family: 'Inter', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  border: none;
-  padding: 14px;
-  border-bottom: solid 1px #dbd8d7;
-  width: 100%;
-}
-
-textarea {
-  font-family: 'Inter', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-  background-color: #fbf8f7;
-  padding: 12px;
-  height: 120px;
   border: none;
   width: 100%;
 }
@@ -386,8 +371,6 @@ textarea {
 footer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  border-top: 1px solid #dfe1e6;
   padding: 25px;
 }
 

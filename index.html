@@ -291,11 +291,11 @@
       </div>
 
       <!-- Contact me section -->
-      <section id="contact-section" class="contact-section">
-        <p>
+      <section class="contact-section">
+        <h2>
           I'm always interested in hearing about new projects, so if you'd like to
           chat please get in touch.
-        </p>
+        </h2>
   
         <form action="https://formspree.io/f/xeqdoera" method="POST">
           <input
@@ -304,24 +304,29 @@
             name="fullname"
             id="fullname"
             maxlength="30"
+            placeholder="Full name"
+            required
           />
   
           <input
             aria-label="Email"
-            type="text"
+            type="email"
             name="email"
             id="email"
+            placeholder="Email address"
+            required
           />
   
           <textarea
             aria-label="Message"
+            maxlength="500"
             name="message"
             id="massage"
             placeholder="Enter text here"
+            required
           ></textarea>
           <div>
             <button class="link" type="submit">Get in touch</button>
-            <span class="error"></span>
           </div>
         </form>
       </section>
