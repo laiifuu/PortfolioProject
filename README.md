@@ -1,15 +1,5 @@
 <a name="readme-top"></a>
 
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Portfolio Project</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -25,7 +15,7 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -42,8 +32,6 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -104,6 +92,13 @@ you can install the project's dependencies using `npm i`
 
 To run the project, you can open the `index.html` file using a web browser, or use the live server extension on your code editor.
 
+### Run tests
+
+There are currently no tests set up for this project.
+
+### Deployment
+
+You can deploy this project using the Github Pages feature.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
